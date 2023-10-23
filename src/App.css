@@ -1,0 +1,160 @@
+/* Sunset Gradient Background */
+html{
+  height: 100%;
+  background: linear-gradient(to bottom, #ff7e5d, #feb47b, #ffcc6f);
+  /* For WebKit (Safari, Chrome, etc.) */
+  background: -webkit-linear-gradient(to bottom, #ff7e5d, #feb47b, #ffcc6f);
+  /* For Mozilla Firefox */
+  background: -moz-linear-gradient(to bottom, #ff7e5d, #feb47b, #ffcc6f);
+  /* For Internet Explorer 10 and 11 */
+  background: -ms-linear-gradient(to bottom, #ff7e5d, #feb47b, #ffcc6f);
+}
+.login-page {
+  width: 330px;
+  margin: 0 auto;
+}
+
+.login-page form {
+  padding: 20px;
+}
+
+.login-page input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.login-page button {
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.login-page button:hover {
+  background-color: #444;
+}
+
+.signup-page {
+  width: 330px;
+  margin: 0 auto;
+}
+
+.signup-page form {
+  padding: 20px;
+}
+
+.signup-page input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.signup-page button {
+  width: 100%;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.signup-page button:hover {
+  background-color: #444;
+}
+
+form {
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, #ff7e5d, #feb47b, #ffcc6f);
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  height: 100%;
+}
+ .login-page {
+  width: 80%;
+  margin: 0 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px; /* Added padding for content inside the form */
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 60%;
+  background: linear-gradient(to bottom, #ff7e5d, #feb47b, #ffcc6f);
+ }
+
+
+.App {
+  width: 100%;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply animations to all elements */
+.gavel-icon {
+  font-size: 80px;
+  animation: scale 1s infinite; /* Scale effect */
+}
+
+.book-icon {
+  font-size: 80px;
+  animation: move 1s infinite; /* Move effect */
+ /* Rotate effect */
+}
+
+.scale-icon {
+  font-size: 80px;
+  animation: scale 1s infinite; /* Scale effect */
+}
+
+.animation {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 17%;
+}
